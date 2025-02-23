@@ -84,7 +84,7 @@ class _LogoAnimationState extends State<LogoAnimation>
     _reduceDiffAnimation = Tween<double>(
       begin: 1,
       end: 0,
-    ).animate(CurvedAnimation(parent: _controller, curve: Interval(0.3, 0.45)));
+    ).animate(CurvedAnimation(parent: _controller, curve: Interval(0.26, 0.45)));
 
     _reduceHeightAnimation = Tween<double>(
       begin: 1,

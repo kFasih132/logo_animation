@@ -40,3 +40,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class CasLogoAnimation {
+}

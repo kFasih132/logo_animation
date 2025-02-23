@@ -46,7 +46,7 @@ class CasLogoPainter extends CustomPainter {
       h * (0.1875 - (0.075 * cSide)),
     );
     path4.lineTo(
-      w * (0.3698 - (0.14355 * cSide)),
+      w * (0.3698 - (0.14255 * cSide)),
       h * (0.375 - (0.125 * cSide)),
     );
     path4.lineTo(w * 0.22725, h * 0.25);

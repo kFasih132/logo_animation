@@ -45,12 +45,12 @@ class _ShapesRotaionPainter extends CustomPainter {
     );
 
     canvas.drawCircle(
-      Offset(-((radius + (diff*reduceDiff)) - radiusOfShapes), 0),
+      Offset(-((radius-radiusOfShapes) + (diff*reduceDiff)), 0),
       radiusOfShapes,
       circlePaint,
     );
     canvas.drawCircle(
-      Offset(((radius + (diff*reduceDiff)) - radiusOfShapes), 0),
+      Offset(((radius-radiusOfShapes) + (diff*reduceDiff)), 0),
       radiusOfShapes,
       circlePaint,
     );
