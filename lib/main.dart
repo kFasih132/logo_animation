@@ -32,6 +32,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    setState(() {
+      
+    });
     
     var size = MediaQuery.of(context).size;
     return Scaffold(
